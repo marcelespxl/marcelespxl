@@ -1,0 +1,94 @@
+body{
+  font: verdana, helvetica, sans-serif;
+  background: beige url(images/main/menuBack.png) center;
+  margin: 0;
+}
+
+.accessaid, h1 {
+  position: absolute;
+  height: 0;
+  overflow: hidden;
+}
+
+#header {
+  background: #595652 url(images/main/marcelesTitle.png) no-repeat center;
+  height: 94px;
+}
+#subheader {
+  background: #595652 /*url(images/main/subhe1.png)*/ ;
+  height: 90px;
+text-align: center;
+  /*float: right;*/
+/*  float:   block-start;
+  margin: auto; */
+
+  #subheader img{
+
+    border: 1px solid #333;
+  }
+}
+#navigation {
+  position: absolute;
+  top: 60px;
+  margin-top: 0.5em;
+  left: 0;
+  width: 180px;
+}
+#navigation ul {
+  margin: 0 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+#navigation ul a {
+  color: #222034;
+  text-decoration: none;
+  display: block;
+  background: #9badb7;
+  border-left: 3px solid #cbdbfc;
+  padding: 0 0.5em;
+  margin: 0 auto 10px 1em;
+}
+#navigation a:visited {
+  color: purple;
+}
+#navigation a:hover {
+  background: #df7126;
+  border-color: grey;
+}
+#content {
+  border-left: 180px solid #595652;
+  background: #9badb7 url(images/main/menuTexture.png) repeat-y;
+  padding: 1px 20px 1em 40px;
+}
+ #content img {
+    /*  width: 100px;
+	  	height: 150px;
+			padding: 1px;
+			border: 1px solid #333;
+
+			margin: 0 0 1em 1em; */
+      	float: left;
+ }
+ #container {
+   position: relative;
+   width: inherit;
+   border:solid #595652;
+   border-width: 0 3px;
+   margin: 60px;
+ }
+#content img{
+  padding: 1px;
+			border: 1px solid #333;
+      float:inherit;
+   margin: 0 0 1em 1em;
+}
+footer{
+text-align: center;
+  width:inherit;
+  color: lightgrey;
+
+}
+
+footer img {
+ float: inherit;
+}
